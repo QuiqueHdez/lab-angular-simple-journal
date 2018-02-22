@@ -10,6 +10,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 export class DetailListComponent implements OnInit {
 
   detail:any;
+  
   constructor(
     private router:Router,
     private route: ActivatedRoute,
