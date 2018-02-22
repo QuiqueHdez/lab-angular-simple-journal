@@ -1,5 +1,5 @@
-<p *ngFor="let a of entryList">
-  {{a.title}} - {{a.date}}
-  
+<div  *ngFor="let detail of entryList">
+<p>
+  {{detail.title}} - {{detail.date}}
 </p>
-
+  <a [routerLink]="['detail', detail._id]"> View Details </a>
